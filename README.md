@@ -1,2 +1,2 @@
-# Exp2P11
+#Practica 11
 A continuación en cada rama encontrará todas las partes del informe.
