@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    string nuevaCookie = (string)ViewBag.nuevaCookie;
+    string apple = (string)ViewBag.nuevaCookie;
+    string dell = (string)ViewBag.nuevaCookie;
+    string lenevo = (string)ViewBag.nuevaCookie;
+    string acer = (string)ViewBag.nuevaCookie;
+    string sony = (string)ViewBag.nuevaCookie;
+    string wipro = (string)ViewBag.nuevaCookie;
+
+}
+
+<div class="row">
+    <h1>UCSM</h1>
+    <p class="lead">Curso de Desarrollo de Aplicaciones</p>
+    <form method="post" action="~/Home/SetCookie">
+        <Label><b>Prueba de Cookies:</b></Label>
+        <input value="@nuevaCookie" type="text" name="valor" />
+        <br />
+        <br />
+        <input type="checkbox" name="apple" value="Apple" />
+        <label>Apple</label>
+        <br />
+        <input type="checkbox" name="dell" value="Dell" />
+        <label>Dell</label>
+        <br />
+        <input type="checkbox" name="lenevo" value="Lenevo" />
+        <label>Lenevo</label>
+        <br />
+        <input type="checkbox" name="acer" value="Acer" />
+        <label>Acer</label>
+        <br />
+        <input type="checkbox" name="sony" value="Sony" />
+        <label>Sony</label>
+        <br />
+        <input type="checkbox" name="wipro" value="Wipro" />
+        <label>Wipro</label>
+        <br />
+        <br />
+        <input type="submit" value="Guardar Cookie" />
+    </form>
+</div>

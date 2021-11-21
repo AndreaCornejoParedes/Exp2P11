@@ -1,2 +1,0 @@
-#Ejercicio Propuesto Nro1
-
